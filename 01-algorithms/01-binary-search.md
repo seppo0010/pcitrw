@@ -23,7 +23,7 @@ strategy is to ask a question that will discard half of the options.
 
 If you go to the opposite extreme, and ask a very specific question, it is
 a high-risk, high-rewards scenario. It is very likely you have obtained little
-information in most cases, but in some few you guessed correctly.
+information in most cases, but in a few you have guessed correctly.
 
 ### Properties
 
