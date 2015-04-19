@@ -41,3 +41,28 @@ information in most cases, but in a few you have guessed correctly.</p>
 looking for is actually pretty fast. If we have a million options, we can
 locate any one of them with up to 20 comparisons. And for a billion options,
 up to only 30.</p>
+
+<h2>Map/Reduce</h2>
+
+<h3>Example</h3>
+
+<h4>Elections</h4>
+
+<p>When a small group of people want to have an election, where the vote is
+secret, each will write down their desired output, gather all together, shuffle
+and count the matching results.</p>
+
+<p>This algorithm does not scale up well, since a big group of people will take a
+long time to cast all votes and count them. Luckily, this is a problem that
+was already solved by modern democratic states: they divide the people in
+groups, each group will cast their votes, a group member will count the results
+and summarize them in single a sheet of paper. All those papers are submitted
+to a central person who adds up the votes to get the winner.</p>
+
+<p>The act of counting each individual vote and write down a summary is called
+"map". While making an overall summary of all summaries is "reduce".</p>
+
+<h3>Properties</h3>
+
+<p>The benefit of map/reduce is to divide a big problem into smallers that can be
+parallelized.</p>
