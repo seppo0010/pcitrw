@@ -1,6 +1,6 @@
 <h1>Programming Concepts in the Real World</h1>
 
-<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Attribution-ShareAlike 4.0 International" title="" /></a></p>
+<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Attribution-ShareAlike 4.0 International" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a></p>
 
 <p>There are many aspects to programming that are needed to write code. In this
 book we will focus only on some basic concepts that can be explained in
@@ -16,7 +16,7 @@ isolation, and may be interesting for non programmers.</p>
 
 <p>I want to look for a word in an English dictionary. An intuitive way to do it
 is to open the dictionary in a random page look for any word, compare it with
-the word I'm looking for and see if it has to be before or after that one.
+the word I&#39;m looking for and see if it has to be before or after that one.
 Then, I repeat the process and on every step the search range gets smaller
 until I find out the word I was looking for.</p>
 
@@ -60,9 +60,53 @@ and summarize them in single a sheet of paper. All those papers are submitted
 to a central person who adds up the votes to get the winner.</p>
 
 <p>The act of counting each individual vote and write down a summary is called
-"map". While making an overall summary of all summaries is "reduce".</p>
+&quot;map&quot;. While making an overall summary of all summaries is &quot;reduce&quot;.</p>
 
 <h3>Properties</h3>
 
 <p>The benefit of map/reduce is to divide a big problem into smallers that can be
 parallelized.</p>
+
+<h2>Data Structures</h2>
+
+<h2>Array</h2>
+
+<h3>Example</h3>
+
+<h4>Grocery List</h4>
+
+<p>To make a grocery list you grab a sheet of paper and start writing from top to
+bottom what you need to buy. This is the simplest way of making a list.</p>
+
+<h3>Properties</h3>
+
+<p>Adding items to an array at the end is easy. And adding more capacity
+(including a second sheet of paper) is also possible.</p>
+
+<p>It is not easy to add things in the middle of the list. It requires you to
+copy every item one line below to have the free space where you want the
+insertion.</p>
+
+<h2>Linked List</h2>
+
+<h3>Example</h3>
+
+<h4>Field trip</h4>
+
+<p>In a school field trip, stand all children in a line and ask them to remember
+who is to their right. Now, you remember who is in each of the edges.</p>
+
+<p>Now at any point, you can ask the first child to point to the second, and then
+ask the second for the third, and so on. If you reach the last child then you
+are sure that your list is complete.</p>
+
+<h3>Properties</h3>
+
+<p>In this schema, it is easy to add something at any point in the list. If the
+list is sorted by some criteria, you can find where the insertion needs to
+happen and just ask the previous node to point to the new value and the
+new value to what the node was pointing at.</p>
+
+<p>It is hard, though, to identify a node by its position. If you want to know
+the position of a node, you have to start from the first and count until you
+reach it.</p>
