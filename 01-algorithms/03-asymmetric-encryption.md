@@ -1,4 +1,4 @@
-## Asymmetric Encription
+## Asymmetric Encryption
 
 ### Example
 
