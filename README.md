@@ -9,3 +9,8 @@ isolation, and may be interesting for non programmers.
 The goal is not to teach how to program, but to show what programming is about.
 What are some of the topics software engineer discuss, and which tools they
 use to solve problems.
+
+## Contributing
+
+To suggest a topic, an improvement, or any sort of feedback, please
+[create an issue in the GitHub repository](https://github.com/seppo0010/pcitrw/issues/new).
