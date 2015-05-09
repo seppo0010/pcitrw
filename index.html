@@ -1,10 +1,14 @@
 <h1>Programming Concepts in the Real World</h1>
 
-<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Attribution-ShareAlike 4.0 International" title="" /></a></p>
+<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Attribution-ShareAlike 4.0 International" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a></p>
 
 <p>There are many aspects to programming that are needed to write code. In this
 book we will focus only on some basic concepts that can be explained in
 isolation, and may be interesting for non programmers.</p>
+
+<p>The goal is not to teach how to program, but to show what programming is about.
+What are some of the topics software engineer discuss, and which tools they
+use to solve problems.</p>
 
 <h2>Algorithms</h2>
 
@@ -16,7 +20,7 @@ isolation, and may be interesting for non programmers.</p>
 
 <p>I want to look for a word in an English dictionary. An intuitive way to do it
 is to open the dictionary in a random page look for any word, compare it with
-the word I'm looking for and see if it has to be before or after that one.
+the word I&#39;m looking for and see if it has to be before or after that one.
 Then, I repeat the process and on every step the search range gets smaller
 until I find out the word I was looking for.</p>
 
@@ -60,12 +64,36 @@ and summarize them in single a sheet of paper. All those papers are submitted
 to a central person who adds up the votes to get the winner.</p>
 
 <p>The act of counting each individual vote and write down a summary is called
-"map". While making an overall summary of all summaries is "reduce".</p>
+&quot;map&quot;. While making an overall summary of all summaries is &quot;reduce&quot;.</p>
 
 <h3>Properties</h3>
 
 <p>The benefit of map/reduce is to divide a big problem into smallers that can be
 parallelized.</p>
+
+<h2>Asymmetric Encription</h2>
+
+<h3>Example</h3>
+
+<h4>Coffers and keys</h4>
+
+<p>Before the telegraph was created, the only way to transmit a message was to
+send an object with the message. The question is how to make sure nobody except
+the recipient reads the message. If the sender can agree with them in advance,
+they can give them a key to a coffer, and then send a message inside the
+coffer. We will assume the coffer cannot be opened without the key.</p>
+
+<p>Now there is a post office that keeps open coffers whose keys belong to anyone
+interested in receiving messages. When a person wants to send a private
+message, they will ask the library for a coffer. Now they will include their
+message in that coffer, and inside it another coffer, to which they own the
+key, open. The recipient can now reply privately in this second coffer.</p>
+
+<h3>Properties</h3>
+
+<p>With this system, anyone can establish a secure connection with anyone
+registered in the library, or if they can somehow make a secure connection
+once, temporarily.</p>
 
 <h2>Data Structures</h2>
 
@@ -144,7 +172,7 @@ each node to remember more.</p>
 
 <h4>Closet</h4>
 
-<p>When organizing a closet, people usually group clothing by type. You'll see a
+<p>When organizing a closet, people usually group clothing by type. You&#39;ll see a
 pile with t-shirts, a pile with pants, a socks drawer, etc. And now, whenever
 you want to grab something, you go to the bucket that should contain it, see
 all of the items in there and pick the right one.</p>
@@ -165,8 +193,8 @@ less incorrect items in the drawer.</p>
 
 <h4>Dictionary</h4>
 
-<p>Let's grab a dictionary, and insert in the first page an index that associates
-each letter with the page that letter's first word is. Now, at the begin of
+<p>Let&#39;s grab a dictionary, and insert in the first page an index that associates
+each letter with the page that letter&#39;s first word is. Now, at the begin of
 each letter, we can create another index for the combination of that letter and
 the next one in the word, and so on.</p>
 
