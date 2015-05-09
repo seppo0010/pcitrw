@@ -6,6 +6,15 @@
 book we will focus only on some basic concepts that can be explained in
 isolation, and may be interesting for non programmers.</p>
 
+<p>The goal is not to teach how to program, but to show what programming is about.
+What are some of the topics software engineer discuss, and which tools they
+use to solve problems.</p>
+
+<h2>Contributing</h2>
+
+<p>To suggest a topic, an improvement, or any sort of feedback, please
+<a href="https://github.com/seppo0010/pcitrw/issues/new">create an issue in the GitHub repository</a>.</p>
+
 <h2>Algorithms</h2>
 
 <h2>Binary Search</h2>
@@ -66,6 +75,30 @@ to a central person who adds up the votes to get the winner.</p>
 
 <p>The benefit of map/reduce is to divide a big problem into smallers that can be
 parallelized.</p>
+
+<h2>Asymmetric Encryption</h2>
+
+<h3>Example</h3>
+
+<h4>Coffers and keys</h4>
+
+<p>Before the telegraph was created, the only way to transmit a message was to
+send an object with the message. The question is how to make sure nobody except
+the recipient reads the message. If the sender can agree with them in advance,
+they can give them a key to a coffer, and then send a message inside the
+coffer. We will assume the coffer cannot be opened without the key.</p>
+
+<p>Now there is a post office that keeps open coffers whose keys belong to anyone
+interested in receiving messages. When a person wants to send a private
+message, they will ask the library for a coffer. Now they will include their
+message in that coffer, and inside it another coffer, to which they own the
+key, open. The recipient can now reply privately in this second coffer.</p>
+
+<h3>Properties</h3>
+
+<p>With this system, anyone can establish a secure connection with anyone
+registered in the library, or if they can somehow make a secure connection
+once, temporarily.</p>
 
 <h2>Data Structures</h2>
 
@@ -178,3 +211,73 @@ any search.</p>
 <p>A Btree allows you to have a hierarchy of index to follow to get the element
 you are looking for. The number of indices to follow grows with the number of
 elements, but at a much slower rate.</p>
+
+<h2>Databases</h2>
+
+<h2>Consistency</h2>
+
+<h3>Example</h3>
+
+<h4>Civil Registry</h4>
+
+<p>A civil registry keeps records of citizen's vital events like births, marriages
+and deaths.</p>
+
+<p>To define the Civil Registry as a consistent database, we need to make sure
+of the following:</p>
+
+<ul>
+<li><p>Data inserted is always valid. For example, nobody can die more than once,
+and only people who was born can get married.</p></li>
+<li><p>Any data that is written, will be stored and available when reading
+afterwards. No sheet can be lost or ignored.</p></li>
+</ul>
+
+<p>We can say instead it is eventually consistent if we loosen the immediacy of
+the availability of written data. For example, if we have different offices
+where the events can be registered, a birth that is written in one may not be
+known in the other office until they eventually sync up. This must happen at
+some point, but its frequency can be arbitrarily set.</p>
+
+<h2>Atomicity and Isolation</h2>
+
+<h3>Example</h3>
+
+<h4>Bank Transfer</h4>
+
+<p>If a bank cashier wants to transfer money between two accounts, there are
+actually two operations: subtract the amount from one of the accounts and
+add it to the other one.</p>
+
+<p>For these operations to be considered atomic, they need to happen both or
+neither. If money is added to one of the accounts, but the subtraction of the
+other one fails (for lack of funds, for example) the addition needs to be
+canceled.</p>
+
+<p>For them to be considered isolated, nobody else should be able to check out the
+balances of the accounts during the operations with one of them executed
+and the other one not. Results must be available altogether.</p>
+
+<h2>SQL Injection</h2>
+
+<h3>Example</h3>
+
+<h4>Who's on First?</h4>
+
+<p>From Wikipedia:</p>
+
+<blockquote>
+  <p><a href="https://www.youtube.com/watch?v=kTcRRaXV-fg">"Who's on first?"</a> is a comedy
+routine made famous by Abbott and Costello. The premise of the sketch is that
+Abbott is identifying the players on a baseball team for Costello, but their
+names and nicknames can be interpreted as non-responsive answers to
+Costello's questions. For example, the first baseman is named "Who"; thus,
+the utterance "Who's on first" is ambiguous between the question ("Which
+person is the first baseman?") and the answer ("The name of the first
+baseman is 'Who'").</p>
+</blockquote>
+
+<h3>Explanation</h3>
+
+<p>A SQL injection works by confusing the command that needs to be performed by
+introducing ambiguous terms modifying the grammar of the statement.</p>
