@@ -5,3 +5,7 @@
 There are many aspects to programming that are needed to write code. In this
 book we will focus only on some basic concepts that can be explained in
 isolation, and may be interesting for non programmers.
+
+The goal is not to teach how to program, but to show what programming is about.
+What are some of the topics software engineer discuss, and which tools they
+use to solve problems.
