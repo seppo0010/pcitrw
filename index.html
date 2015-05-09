@@ -71,7 +71,7 @@ to a central person who adds up the votes to get the winner.</p>
 <p>The benefit of map/reduce is to divide a big problem into smallers that can be
 parallelized.</p>
 
-<h2>Asymmetric Encription</h2>
+<h2>Asymmetric Encryption</h2>
 
 <h3>Example</h3>
 
@@ -225,11 +225,11 @@ of the following:</p>
 and only people who was born can get married.</p></li><li><p>Any data that is written, will be stored and available when reading
 afterwards. No sheet can be lost or ignored.</p></li></ul>
 
-<p>We can say instead it is eventually consistent if we loose the immediacy of the
-availability of written data. For example, if we have different offices where
-the events can be registered, a birth that is written in one may not be known
-in the other office until they eventually sync up. This must happen at some
-point, but its frequency can be arbitrarily set.</p>
+<p>We can say instead it is eventually consistent if we loosen the immediacy of
+the availability of written data. For example, if we have different offices
+where the events can be registered, a birth that is written in one may not be
+known in the other office until they eventually sync up. This must happen at
+some point, but its frequency can be arbitrarily set.</p>
 
 <h2>Atomicity and Isolation</h2>
 
@@ -238,14 +238,14 @@ point, but its frequency can be arbitrarily set.</p>
 <h4>Bank Transfer</h4>
 
 <p>If a bank cashier wants to transfer money between two accounts, there are
-actually two operations: substract the amount from one of the accounts and
+actually two operations: subtract the amount from one of the accounts and
 add it to the other one.</p>
 
-<p>For these operations to be consider atomic, they need to happen both or
-neither. If money is added to one of the accounts, but the substraction of the
+<p>For these operations to be considered atomic, they need to happen both or
+neither. If money is added to one of the accounts, but the subtraction of the
 other one fails (for lack of funds, for example) the addition needs to be
 canceled.</p>
 
-<p>For them to be consider isolated, nobody else should be able to check out the
+<p>For them to be considered isolated, nobody else should be able to check out the
 balances of the accounts during the operations with one of them executed
 and the other one not. Results must be available altogether.</p>
