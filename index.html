@@ -1,3 +1,29 @@
+<style>
+@import url('normalize.css');
+
+h2 {
+    border-bottom: 1px solid #EEE;
+}
+
+body {
+    line-height: 200%;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+</style>
+
+<div id="content">
 <h1>Programming Concepts in the Real World</h1>
 
 <p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Attribution-ShareAlike 4.0 International" title="" /></a></p>
@@ -17,11 +43,11 @@ use to solve problems.</p>
 
 <h2>Algorithms</h2>
 
-<h2>Binary Search</h2>
+<h3>Binary Search</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Dictionary</h4>
+<h5>Dictionary</h5>
 
 <p>I want to look for a word in an English dictionary. An intuitive way to do it
 is to open the dictionary in a random page look for any word, compare it with
@@ -35,7 +61,7 @@ the options available. Picking a random word has a small chance of discarding
 most of the words and a high chance of discarding few. Choosing half ensures
 the maximum number of steps.</p>
 
-<h4>Guess Who?</h4>
+<h5>Guess Who?</h5>
 
 <p>The same algorithm can be applied to the children game Guess Who?. The optimal
 strategy is to ask a question that will discard half of the options.</p>
@@ -44,18 +70,18 @@ strategy is to ask a question that will discard half of the options.</p>
 a high-risk, high-rewards scenario. It is very likely you have obtained little
 information in most cases, but in a few you have guessed correctly.</p>
 
-<h3>Properties</h3>
+<h4>Properties</h4>
 
 <p>Since we remove half of the options after each comparison, finding what we are
 looking for is actually pretty fast. If we have a million options, we can
 locate any one of them with up to 20 comparisons. And for a billion options,
 up to only 30.</p>
 
-<h2>Map/Reduce</h2>
+<h3>Map/Reduce</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Elections</h4>
+<h5>Elections</h5>
 
 <p>When a small group of people want to have an election, where the vote is
 secret, each will write down their desired output, gather all together, shuffle
@@ -71,16 +97,16 @@ to a central person who adds up the votes to get the winner.</p>
 <p>The act of counting each individual vote and write down a summary is called
 "map". While making an overall summary of all summaries is "reduce".</p>
 
-<h3>Properties</h3>
+<h4>Properties</h4>
 
 <p>The benefit of map/reduce is to divide a big problem into smallers that can be
 parallelized.</p>
 
-<h2>Asymmetric Encryption</h2>
+<h3>Asymmetric Encryption</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Coffers and keys</h4>
+<h5>Coffers and keys</h5>
 
 <p>Before the telegraph was created, the only way to transmit a message was to
 send an object with the message. The question is how to make sure nobody except
@@ -94,7 +120,7 @@ message, they will ask the library for a coffer. Now they will include their
 message in that coffer, and inside it another coffer, to which they own the
 key, open. The recipient can now reply privately in this second coffer.</p>
 
-<h3>Properties</h3>
+<h4>Properties</h4>
 
 <p>With this system, anyone can establish a secure connection with anyone
 registered in the library, or if they can somehow make a secure connection
@@ -102,16 +128,16 @@ once, temporarily.</p>
 
 <h2>Data Structures</h2>
 
-<h2>Array</h2>
+<h3>Array</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Grocery List</h4>
+<h5>Grocery List</h5>
 
 <p>To make a grocery list you grab a sheet of paper and start writing from top to
 bottom what you need to buy. This is the simplest way of making a list.</p>
 
-<h3>Properties</h3>
+<h4>Properties</h4>
 
 <p>Adding items to an array at the end is easy. And adding more capacity
 (including a second sheet of paper) is also possible.</p>
@@ -120,11 +146,11 @@ bottom what you need to buy. This is the simplest way of making a list.</p>
 copy every item one line below to have the free space where you want the
 insertion.</p>
 
-<h2>Linked List</h2>
+<h3>Linked List</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Field trip</h4>
+<h5>Field trip</h5>
 
 <p>In a school field trip, stand all children in a line and ask them to remember
 who is to their right. Now, you remember who is in each of the edges.</p>
@@ -133,7 +159,7 @@ who is to their right. Now, you remember who is in each of the edges.</p>
 ask the second for the third, and so on. If you reach the last child then you
 are sure that your list is complete.</p>
 
-<h3>Properties</h3>
+<h4>Properties</h4>
 
 <p>In this schema, it is easy to add something at any point in the list. If the
 list is sorted by some criteria, you can find where the insertion needs to
@@ -144,11 +170,11 @@ new value to what the node was pointing at.</p>
 the position of a node, you have to start from the first and count until you
 reach it.</p>
 
-<h2>Double Linked List</h2>
+<h3>Double Linked List</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Grocery List</h4>
+<h5>Grocery List</h5>
 
 <p>This time, to make a grocery list we are going to write each item we want to
 buy in a post-it. We can now attach any item we want to add to the list on any
@@ -156,7 +182,7 @@ position, which will help us to keep the list sorted in a convenient way.</p>
 
 <p>We can also iterate the list from top to bottom or from bottom to top.</p>
 
-<h4>Field trip</h4>
+<h5>Field trip</h5>
 
 <p>In a school field trip, stand all children in a line and ask them to remember
 who is to their right and to their left. Now, you remember who is in each of
@@ -165,17 +191,17 @@ the edges.</p>
 <p>Now at any point, you can ask both of the edges to point to the next node, and
 continue until both iterations reach the same node.</p>
 
-<h3>Properties</h3>
+<h4>Properties</h4>
 
 <p>Like in the linked list case, we can easily insert nodes anywhere in the list,
 but now we can iterate the nodes from either of the edges, but we are asking
 each node to remember more.</p>
 
-<h2>Hash Map</h2>
+<h3>Hash Map</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Closet</h4>
+<h5>Closet</h5>
 
 <p>When organizing a closet, people usually group clothing by type. You'll see a
 pile with t-shirts, a pile with pants, a socks drawer, etc. And now, whenever
@@ -188,15 +214,15 @@ socks, another for white socks, and so on. As long as we know in which drawer
 the sock we are looking for is, we can look it up faster, since we will have
 less incorrect items in the drawer.</p>
 
-<h3>Properties</h3>
+<h4>Properties</h4>
 
 <p>If we have enough buckets, we can add and look up any item really fast.</p>
 
-<h2>Btree</h2>
+<h3>Btree</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Dictionary</h4>
+<h5>Dictionary</h5>
 
 <p>Let's grab a dictionary, and insert in the first page an index that associates
 each letter with the page that letter's first word is. Now, at the begin of
@@ -206,7 +232,7 @@ the next one in the word, and so on.</p>
 <p>Now we can find out each word by following the index letter by letter, without
 any search.</p>
 
-<h3>Properties</h3>
+<h4>Properties</h4>
 
 <p>A Btree allows you to have a hierarchy of index to follow to get the element
 you are looking for. The number of indices to follow grows with the number of
@@ -214,11 +240,11 @@ elements, but at a much slower rate.</p>
 
 <h2>Databases</h2>
 
-<h2>Consistency</h2>
+<h3>Consistency</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Civil Registry</h4>
+<h5>Civil Registry</h5>
 
 <p>A civil registry keeps records of citizen's vital events like births, marriages
 and deaths.</p>
@@ -239,11 +265,11 @@ where the events can be registered, a birth that is written in one may not be
 known in the other office until they eventually sync up. This must happen at
 some point, but its frequency can be arbitrarily set.</p>
 
-<h2>Atomicity and Isolation</h2>
+<h3>Atomicity and Isolation</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Bank Transfer</h4>
+<h5>Bank Transfer</h5>
 
 <p>If a bank cashier wants to transfer money between two accounts, there are
 actually two operations: subtract the amount from one of the accounts and
@@ -258,11 +284,11 @@ canceled.</p>
 balances of the accounts during the operations with one of them executed
 and the other one not. Results must be available altogether.</p>
 
-<h2>SQL Injection</h2>
+<h3>SQL Injection</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Who's on First?</h4>
+<h5>Who's on First?</h5>
 
 <p>From Wikipedia:</p>
 
@@ -277,21 +303,21 @@ person is the first baseman?") and the answer ("The name of the first
 baseman is 'Who'").</p>
 </blockquote>
 
-<h3>Explanation</h3>
+<h4>Explanation</h4>
 
 <p>A SQL injection works by confusing the command that needs to be performed by
 introducing ambiguous terms modifying the grammar of the statement.</p>
 
-<h2>CAP Theorem</h2>
+<h3>CAP Theorem</h3>
 
-<h3>Example</h3>
+<h4>Example</h4>
 
-<h4>Civil Registry</h4>
+<h5>Civil Registry</h5>
 
 <p>Supose a Civil Registry with five offices and phone lines between them.
 There are different ways of organizing. We are going to analyze two extremes.</p>
 
-<h5>Highly available (AP)</h5>
+<h6># Highly available (AP)</h6>
 
 <p>Each of the offices can take new data from people and at the end of the day,
 they will share the information they received with all the other offices.</p>
@@ -307,7 +333,7 @@ natural disaster and some of its data from the day is lost. People who already
 left the office do not know the Registry lost it and will run into a problem
 in the future.</p>
 
-<h5>Highly consistent (CP)</h5>
+<h6>Highly consistent (CP)</h6>
 
 <p>In this other approach, any data change needs to be coordinated by all the
 offices. This way, all the data is always valid, available in every office,
@@ -316,8 +342,9 @@ and no single one is responsible for its durability.</p>
 <p>Problems may appear when the phone network becomes unreliable. If a single
 office phone is broken, all offices will stop working.</p>
 
-<h4>Properties</h4>
+<h5>Properties</h5>
 
 <p>It is said that a distributed database can only be highly available or highly
 consistent. Different balances between both can be achieved, as a compromise,
 for different use cases.</p>
+</div>
