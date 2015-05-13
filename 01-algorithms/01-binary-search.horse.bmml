@@ -1,0 +1,30 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="529" measuredH="401" mockupW="492" mockupH="380">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Menu" x="37" y="244" w="-1" h="-1" measuredW="150" measuredH="157" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>battery%0Acorrect%0Ahorse%0Ao%20password%0Astaple%0Astrength%0Axkcd</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Menu" x="208" y="244" w="-1" h="-1" measuredW="150" measuredH="157" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>battery%0Ao%20correct%0Ahorse%0A-password-%0A-staple-%0A-strength-%0A-xkcd-</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Menu" x="379" y="244" w="-1" h="-1" measuredW="150" measuredH="157" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>-battery-%0A-correct-%0Ao%20horse%0A-password-%0A-staple-%0A-strength-%0A-xkcd-</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="37" y="21" w="492" h="-1" measuredW="276" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Search%20for%20%22horse%22%20in%20the%20following%20list%20of%20words%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Menu" x="37" y="57" w="492" h="-1" measuredW="150" measuredH="157" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>battery%0Acorrect%0Ahorse%0Apassword%0Astaple%0Astrength%0Axkcd</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::VSplitter" x="38" y="220" w="491" h="-1" measuredW="100" measuredH="11" zOrder="5" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

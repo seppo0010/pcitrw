@@ -19,7 +19,9 @@ exactly in the middle of the not yet discarded list, I am minimizing the
 number of required comparisons, since every time I will be discarding half of
 the words.
 
-##### Guess Who?
+![](01-binary-search.horse.png)
+
+#### Guess Who?
 
 The same algorithm can be applied to the children's game Guess Who?. The
 optimal strategy is to ask a question that will discard half of the options.
