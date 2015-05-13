@@ -1,8 +1,8 @@
-## SQL Injection
+### SQL Injection
 
-### Example
+#### Example
 
-#### Who's on First?
+##### Who's on First?
 
 From Wikipedia:
 
@@ -15,7 +15,7 @@ From Wikipedia:
 > person is the first baseman?") and the answer ("The name of the first
 > baseman is 'Who'").
 
-### Explanation
+#### Explanation
 
 A SQL injection works by confusing the command that needs to be performed by
 introducing ambiguous terms modifying the grammar of the statement.

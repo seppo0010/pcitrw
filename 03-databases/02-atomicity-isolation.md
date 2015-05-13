@@ -1,8 +1,8 @@
-## Atomicity and Isolation
+### Atomicity and Isolation
 
-### Example
+#### Example
 
-#### Bank Transfer
+##### Bank Transfer
 
 If a bank cashier wants to transfer money between two accounts, there are
 actually two operations: subtract the amount from one of the accounts and

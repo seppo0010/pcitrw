@@ -1,8 +1,8 @@
-## Map/Reduce
+### Map/Reduce
 
-### Example
+#### Example
 
-#### Elections
+##### Elections
 
 When a small group of people want to have an election, where the vote is
 secret, each will write down their desired output, gather all together, shuffle
@@ -18,7 +18,7 @@ to a central person who adds up the votes to get the winner.
 The act of counting each individual vote and write down a summary is called
 "map". While making an overall summary of all summaries is "reduce".
 
-### Properties
+#### Properties
 
 The benefit of map/reduce is to divide a big problem into smallers that can be
 parallelized.

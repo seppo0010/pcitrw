@@ -1,13 +1,13 @@
-## Array
+### Array
 
-### Example
+#### Example
 
-#### Grocery List
+##### Grocery List
 
 To make a grocery list you grab a sheet of paper and start writing from top to
 bottom what you need to buy. This is the simplest way of making a list.
 
-### Properties
+#### Properties
 
 Adding items to an array at the end is easy. And adding more capacity
 (including a second sheet of paper) is also possible.

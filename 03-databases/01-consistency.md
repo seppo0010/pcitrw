@@ -1,8 +1,8 @@
-## Consistency
+### Consistency
 
-### Example
+#### Example
 
-#### Civil Registry
+##### Civil Registry
 
 A civil registry keeps records of citizen's vital events like births, marriages
 and deaths.

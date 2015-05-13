@@ -1,8 +1,8 @@
-## Hash Map
+### Hash Map
 
-### Example
+#### Example
 
-#### Closet
+##### Closet
 
 When organizing a closet, people usually group clothing by type. You'll see a
 pile with t-shirts, a pile with pants, a socks drawer, etc. And now, whenever
@@ -15,6 +15,6 @@ socks, another for white socks, and so on. As long as we know in which drawer
 the sock we are looking for is, we can look it up faster, since we will have
 less incorrect items in the drawer.
 
-### Properties
+#### Properties
 
 If we have enough buckets, we can add and look up any item really fast.
