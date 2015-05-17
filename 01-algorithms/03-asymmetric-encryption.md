@@ -12,12 +12,13 @@ coffer. We will assume the coffer cannot be opened without the key.
 
 Now there is a post office that keeps open coffers whose keys belong to anyone
 interested in receiving messages. When a person wants to send a private
-message, they will ask the library for a coffer. Now they will include their
-message in that coffer, and inside it another coffer, to which they own the
-key, open. The recipient can now reply privately in this second coffer.
+message, they will ask the post office for a coffer. Now they will include
+their message in that coffer, and another open coffer inside of it, to which
+they own the key. The recipient can then reply privately using this second
+coffer.
 
 #### Properties
 
 With this system, anyone can establish a secure connection with anyone
-registered in the library, or if they can somehow make a secure connection
+registered in the post office, or if they can somehow make a secure connection
 once, temporarily.
