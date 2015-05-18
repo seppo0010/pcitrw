@@ -19,7 +19,7 @@ is minimized.
 
 #### Guess Who?
 
-The same algorithm can be applied to the children's game Guess Who?. The
+The same idea can be applied to the children's game Guess Who?. The
 optimal strategy is to ask a question that will discard half of the options.
 
 Going to the opposite extreme by asking a very specific question is a
