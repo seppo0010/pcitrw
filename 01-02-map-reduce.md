@@ -18,6 +18,8 @@ then submitted to a central person who adds up the votes to find the winner.
 The act of counting each individual vote and write down a summary is called
 "map", while making an overall summary of all summaries is called "reduce".
 
+![](01-02-map-reduce.elections.png)
+
 #### Properties
 
 The benefit of map/reduce is to divide a big problem into smaller ones that can

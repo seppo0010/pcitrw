@@ -15,7 +15,7 @@ instead of comparing any random word, they compare with the word that is
 exactly in the middle of the valid range, the number of required comparisons
 is minimized.
 
-![](01-binary-search.horse.png)
+![](01-01-binary-search.horse.png)
 
 #### Guess Who?
 
