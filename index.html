@@ -49,33 +49,42 @@ use to solve problems.</p>
 
 <h5>Dictionary</h5>
 
-<p>I want to look for a word in an English dictionary. An intuitive way to do it
-is to open the dictionary at a random page, look for any word, compare it with
-the word I'm looking for and see if it has to be before or after that one.
-Then, I repeat the process and on every step the search range gets smaller
-until I find the word I was looking for.</p>
+<p>A person wants to look for a word in an English dictionary.
+They may open the book in a random page, select any word in it and compare it
+with the word they are looking for. Since the words are sorted alphabetically,
+they know in which direction to proceed. They can now repeat this process
+until finding the desired word.</p>
 
-<p>Instead of looking for a random page, the fastest way for any word is to grab
-the word in the exact middle. This way each step will discard exactly half of
-the options available. Picking a random word has a small chance of discarding
-most of the words and a high chance of discarding few. Choosing half ensures
-the maximum number of steps.</p>
+<p>Repeating these steps will bring the desired word sooner or later. But if
+instead of comparing any random word, they compare with the word that is
+exactly in the middle of the valid range, the number of required comparisons
+is minimized.</p>
 
-<h5>Guess Who?</h5>
+<p><img src="01-binary-search.horse.png" alt="" title="" /></p>
+
+<h4>Guess Who?</h4>
 
 <p>The same algorithm can be applied to the children's game Guess Who?. The
 optimal strategy is to ask a question that will discard half of the options.</p>
 
-<p>If you go to the opposite extreme, and ask a very specific question, it is
-a high-risk, high-reward scenario. It is very likely you have obtained little
-information in most cases, but in a few you have guessed correctly.</p>
+<p>Going to the opposite extreme by asking a very specific question is a
+high-risk, high-reward scenario. It is very likely to obtained little
+information in most cases, and a lot in a few.</p>
 
 <h4>Properties</h4>
 
-<p>Since we remove half of the options after each comparison, finding what we are
-looking for is actually pretty fast. If we have a million options, we can
-locate any one of them with up to 20 comparisons. And for a billion options,
-up to only 30.</p>
+<p>Binary Search is a series of steps that we can do to search for a result in a
+collection. It is called binary because after each step, we should be able to
+remove roughly half of the items in the collection.</p>
+
+<p>In general, it is used on a series of sorted items, like words or numbers.
+But the same idea can be used for any search problem that allows to discard
+half of the possible results.</p>
+
+<p>Since half of the options are removed after each comparison, it is pretty fast
+to find what we are looking for in not so many iterations. For a million
+options, we can locate any one in up to twenty comparisons. And for a billion,
+up to 30.</p>
 
 <h3>Map/Reduce</h3>
 
