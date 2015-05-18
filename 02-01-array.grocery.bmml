@@ -1,0 +1,9 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="151" measuredH="114" mockupW="88" mockupH="69">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::List" x="63" y="45" w="88" h="69" measuredW="100" measuredH="126" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Milk%0ACoffee%0ASugar</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

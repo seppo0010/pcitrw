@@ -10,6 +10,8 @@ position, which will help us to keep the list sorted in a convenient way.
 
 We can also iterate the list from top to bottom or from bottom to top.
 
+![](02-03-double-linked-list.grocery.png)
+
 ##### Field trip
 
 In a school field trip, stand all children in a line and ask them to remember
@@ -18,6 +20,8 @@ the edges.
 
 Now at any point, you can ask both of the edges to point to the next node, and
 continue until both iterations reach the same node.
+
+![](02-03-double-linked-list.field-trip.png)
 
 #### Properties
 

@@ -11,6 +11,8 @@ Now at any point, you can ask the first child to point to the second, and then
 ask the second for the third, and so on. If you reach the last child then you
 are sure that your list is complete.
 
+![](02-02-linked-list.field-trip.png)
+
 #### Properties
 
 In this schema, it is easy to add something at any point in the list. If the
