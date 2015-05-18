@@ -12,6 +12,8 @@ the next one in the word, and so on.
 Now we can find out each word by following the index letter by letter, without
 any search.
 
+![](02-05-btree.dictionary.png)
+
 #### Properties
 
 A Btree allows you to have a hierarchy of index to follow to get the element
