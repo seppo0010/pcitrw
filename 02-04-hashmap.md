@@ -15,6 +15,10 @@ socks, another for white socks, and so on. As long as we know in which drawer
 the sock we are looking for is, we can look it up faster, since we will have
 less incorrect items in the drawer.
 
+![](02-04-hashmap.closet.png)
+
+Socks made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). Colored by Sebastian Waisbrot.
+
 #### Properties
 
 If we have enough buckets, we can add and look up any item really fast.
