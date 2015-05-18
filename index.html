@@ -60,11 +60,11 @@ instead of comparing any random word, they compare with the word that is
 exactly in the middle of the valid range, the number of required comparisons
 is minimized.</p>
 
-<p><img src="01-binary-search.horse.png" alt="" title="" /></p>
+<p><img src="01-01-binary-search.horse.png" alt="" title="" /></p>
 
 <h4>Guess Who?</h4>
 
-<p>The same algorithm can be applied to the children's game Guess Who?. The
+<p>The same idea can be applied to the children's game Guess Who?. The
 optimal strategy is to ask a question that will discard half of the options.</p>
 
 <p>Going to the opposite extreme by asking a very specific question is a
@@ -96,7 +96,7 @@ up to 30.</p>
 each will write down their desired output, gather all together, shuffle and
 count the matching results.</p>
 
-<p>This algorithm does not scale up well, since a big group of people will take a
+<p>This however does not work well for large groups of peopl, sinve it will take a
 long time to cast all votes and count them. Luckily, this is a problem that has
 already been solved by modern democratic states: they divide the people in
 groups, each group will cast their votes, a group member will count the results
@@ -106,10 +106,12 @@ then submitted to a central person who adds up the votes to find the winner.</p>
 <p>The act of counting each individual vote and write down a summary is called
 "map", while making an overall summary of all summaries is called "reduce".</p>
 
+<p><img src="01-02-map-reduce.elections.png" alt="" title="" /></p>
+
 <h4>Properties</h4>
 
 <p>The benefit of map/reduce is to divide a big problem into smaller ones that can
-be parallelized.</p>
+be executed at the same time, and then the results combined.</p>
 
 <h3>Asymmetric Encryption</h3>
 
