@@ -8,7 +8,7 @@ When a small group of people want to have an election where the vote is secret,
 each will write down their desired output, gather all together, shuffle and
 count the matching results.
 
-This however does not work well for large groups of peopl, sinve it will take a
+This however does not work well for large groups of peopl, since it will take a
 long time to cast all votes and count them. Luckily, this is a problem that has
 already been solved by modern democratic states: they divide the people in
 groups, each group will cast their votes, a group member will count the results
