@@ -21,7 +21,7 @@ with open(sys.argv[1], 'r') as fp:
         if line[0] == '!' or line[0] == '#':
             continue
         text += re.sub('[#\.\,\;\:\?\"]', '', line.strip().lower()) + '\n'
-    text_words = re.split('[\s\'-]', text)
+    text_words = re.split('[\s\'-\/]', text)
 
 
 bad_words = set()
