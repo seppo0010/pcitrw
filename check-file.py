@@ -18,7 +18,7 @@ for filename in sys.argv[2:]:
 with open(sys.argv[1], 'r') as fp:
     text = ''
     for line in fp.readlines():
-        if line[0] == '!' or line[0] == '#':
+        if line[0] == '!' or line[0] == '#' or line[0] == ' ':
             continue
         text += re.sub('[#\.\,\;\:\?\"]', '', line.strip().lower()) + '\n'
     text_words = re.split('[\s\'-\/]', text)
