@@ -97,25 +97,25 @@ thousand millions, up to 30.</p>
 <h5>Elections</h5>
 
 <p>When a small group of people want to have an election where the vote is secret,
-each will write down their desired output, gather all together, shuffle and
-count the matching results.</p>
+each will write down their choice and then all are counted.</p>
 
-<p>This however does not work well for large groups of peopl, sinve it will take a
-long time to cast all votes and count them. Luckily, this is a problem that has
-already been solved by modern democratic states: they divide the people in
-groups, each group will cast their votes, a group member will count the results
-and summarize them in a single sheet of paper. All those sheets of paper are
-then submitted to a central person who adds up the votes to find the winner.</p>
+<p>This however does not work well for large groups of people, since it will take
+a long time for everyone to vote and then count the results. Luckily, this is
+a problem that current countries had figured out: they divide the people in
+groups, each group will vote, a group member will count the results
+and add them up in a single sheet of paper. All those sheets of paper are
+then sent to a central person who adds up the votes to find the winner.</p>
 
-<p>The act of counting each individual vote and write down a summary is called
-"map", while making an overall summary of all summaries is called "reduce".</p>
+<p>The act of counting each individual vote and write down the results is called
+"map", while adding them up is called "reduce".</p>
 
 <p><img src="01-02-map-reduce.elections.png" alt="" title="" /></p>
 
 <h4>Properties</h4>
 
 <p>The benefit of map/reduce is to divide a big problem into smaller ones that can
-be executed at the same time, and then the results combined.</p>
+be done at the same time, and then use the results of each to get the general
+result.</p>
 
 <h3>Asymmetric Encryption</h3>
 
@@ -123,24 +123,23 @@ be executed at the same time, and then the results combined.</p>
 
 <h5>Coffers and keys</h5>
 
-<p>Before the telegraph was created, the only way to transmit a message was to
-send an object with the message. The question is how to make sure nobody except
-the recipient reads the message. If the sender can agree with them in advance,
-they can give them a key to a coffer, and then send a message inside the
-coffer. We will assume the coffer cannot be opened without the key.</p>
+<p>Before the telegraph was created, the only way to contact someone was to
+send a thing with a letter. The question is how to make sure nobody except
+the recipient reads it. If the sender can agree with them earlier,
+they can give them a key to a coffer, and then send a letter inside it.
+We will assume the coffer cannot be opened without the key.</p>
 
-<p>Now there is a post office that keeps open coffers whose keys belong to anyone
-interested in receiving messages. When a person wants to send a private
-message, they will ask the post office for a coffer. Now they will include
-their message in that coffer, and another open coffer inside of it, to which
-they own the key. The recipient can then reply privately using this second
-coffer.</p>
+<p>Now there is a post office that keeps open coffers and the key of each is in
+the hands of the people interested in receiving letters.  When a person wants
+to send a private letter, they will ask the post office for a coffer.
+Now they will include their letter in that coffer, and another open coffer
+inside of it, to which they own the key. The recipient can then answer
+privately using this second coffer.</p>
 
 <h4>Properties</h4>
 
-<p>With this system, anyone can establish a secure connection with anyone
-registered in the post office, or if they can somehow make a secure connection
-once, temporarily.</p>
+<p>With this system, anyone can send letters privately to anyone that has a coffer
+in the post office, or if they can somehow receive a coffer once.</p>
 
 <h2>Data Structures</h2>
 
