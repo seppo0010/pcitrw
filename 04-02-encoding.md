@@ -19,7 +19,9 @@ middle fingers.
 
 ![](04-02-encoding.finger-counting.png)
 
-Hands made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). Colored by Sebastian Waisbrot.
+Hands made by [Freepik](http://www.freepik.com) from
+[www.flaticon.com](http://www.flaticon.com). Licensed under
+[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/).
 
 #### Properties
 

@@ -17,7 +17,10 @@ less incorrect items in the drawer.
 
 ![](02-04-hashmap.closet.png)
 
-Socks made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). Colored by Sebastian Waisbrot.
+Socks made by [Freepik](http://www.freepik.com) from
+[www.flaticon.com](http://www.flaticon.com). Licensed under
+[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/).
+Colored by Sebastian Waisbrot.
 
 #### Properties
 
