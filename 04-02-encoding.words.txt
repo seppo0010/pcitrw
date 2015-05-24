@@ -1,0 +1,8 @@
+finger
+fingers
+thumb
+pinky
+index
+recipient
+encode
+decode
