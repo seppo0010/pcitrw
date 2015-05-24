@@ -324,23 +324,19 @@ Results must be available as one.</p>
 
 <h5>Who's on First?</h5>
 
-<p>From Wikipedia:</p>
+<p>In <a href="https://www.youtube.com/watch?v=kTcRRaXV-fg">"Who's on first?"</a>, Abbott
+names the players on a baseball team for Costello, but their names confuse
+Costello because they are also English words that could be part of his
+questions or Abbott's answers.</p>
 
-<blockquote>
-  <p><a href="https://www.youtube.com/watch?v=kTcRRaXV-fg">"Who's on first?"</a> is a comedy
-routine made famous by Abbott and Costello. The premise of the sketch is that
-Abbott is identifying the players on a baseball team for Costello, but their
-names and nicknames can be interpreted as non-responsive answers to
-Costello's questions. For example, the first baseman is named "Who"; thus,
-the utterance "Who's on first" is ambiguous between the question ("Which
-person is the first baseman?") and the answer ("The name of the first
-baseman is 'Who'").</p>
-</blockquote>
+<p>For example, the player on first base is "Who", then when asking
+"Who's on first" it could mean either "Is the person on first base named Who?"
+or "What is the name of the person in first base?".</p>
 
 <h4>Explanation</h4>
 
-<p>A SQL injection works by confusing the command that needs to be performed by
-introducing ambiguous terms modifying the grammar of the statement.</p>
+<p>A SQL Injection works by introducing a term in a statement that changes
+its meaning for the reader from what the writer actually meant.</p>
 
 <h3>CAP Theorem</h3>
 
@@ -348,39 +344,38 @@ introducing ambiguous terms modifying the grammar of the statement.</p>
 
 <h5>Civil Registry</h5>
 
-<p>Supose a Civil Registry with five offices and phone lines between them.
-There are different ways of organizing. We are going to analyze two extremes.</p>
+<p>Suppose a Civil Registry with five offices and phone lines between them.
+There are different ways of organizing. We are going to look into two of them.</p>
 
 <h6># Highly available (AP)</h6>
 
-<p>Each of the offices can take new data from people and at the end of the day,
-they will share the information they received with all the other offices.</p>
+<p>Each of the offices can take new information from people and at the end of the day,
+they will share it with all the other offices.</p>
 
-<p>This could be a problem since it may allow invalid data, for example if a
-person is registered as dead in one office and the married in another one.
+<p>This could be a problem since it may allow incorrect information, for example if a
+person is filed as dead in one office and then gets married in another one.
 If there was a single office, this would never happen since that person's
-registry will be kept up to date, but now we are allowing up to one day of
-stale information.</p>
+registry will be kept up to date, but now we are allowing up to one day
+old information.</p>
 
-<p>Other possible problem is what happens if one office suffers an accident or a
-natural disaster and some of its data from the day is lost. People who already
-left the office do not know the Registry lost it and will run into a problem
-in the future.</p>
+<p>Other possible problem is what happens if one office has a problem and some of
+its information from the day is lost. People who already left the office do not know
+the Registry lost it and will run into a problem in the future.</p>
 
 <h6>Highly consistent (CP)</h6>
 
-<p>In this other approach, any data change needs to be coordinated by all the
-offices. This way, all the data is always valid, available in every office,
-and no single one is responsible for its durability.</p>
+<p>In this other approach, any information change needs to be checked by all the
+offices. This way, all the information is always correct, available in every office,
+and no one is the single responsible for it.</p>
 
-<p>Problems may appear when the phone network becomes unreliable. If a single
+<p>Problems may appear when the phone lines are not working properly. If a single
 office phone is broken, all offices will stop working.</p>
 
 <h5>Properties</h5>
 
 <p>It is said that a distributed database can only be highly available or highly
-consistent. Different balances between both can be achieved, as a compromise,
-for different use cases.</p>
+consistent. Different balances between both can be achieved for different use
+cases.</p>
 
 <h2>Miscellaneous</h2>
 
@@ -390,22 +385,22 @@ for different use cases.</p>
 
 <h5>Walkie Talkie</h5>
 
-<p>Two kids got a pair of Walkie Talkie, a handheld two-way radio. They are
-playing outside, in a large area. They soon realize sometimes the messages
-do not go through, but they keep playing and enjoying when they work.</p>
+<p>Two kids got a pair of Walkie Talkies, a small two-way radio. They are
+playing outside, in a large area. They soon realize sometimes the sound is
+not good, but they keep playing and enjoying when they work.</p>
 
 <h5>Airplanes</h5>
 
-<p>A similar technology is used to communicate between airplains and the control
-tower. However, in this case, the reliability is really important, so there are
-strict protocols in place. When a command is given from the control tower,
-the airplane must not only acknowledge but repeat the message to make sure it
-was properly received.</p>
+<p>Airport's control tower use a similar system to talk to airplanes. However,
+in this case, receiving the right information is really important, so there are
+agreements in place to get rid of these problems. When an order is given from
+the control tower, the airplane must not only say they have received it, but
+also say it back to make sure it was correctly received.</p>
 
 <h4>Properties</h4>
 
-<p>Both TCP and UDP allow to communicate data, but the former allows the sender to
-know that the data was sent completely and correctly.</p>
+<p>Both TCP and UDP allow two parties to talk to each other, but TCP allows the
+sender to know that the information was sent completely and correctly.</p>
 
 <h3>Encoding</h3>
 
@@ -413,31 +408,32 @@ know that the data was sent completely and correctly.</p>
 
 <h5>Finger counting</h5>
 
-<p>When people learn to count, they intuitively use their hand. Each finger that
-is lifted counts as one, then lifting three fingers represent the number three.</p>
+<p>When people learn to count, they use their hand. Each finger that is up counts
+as one, then showing three fingers represent the number three.</p>
 
-<p>If we want to count to larger numbers we will run out of fingers when we reach
-ten. But we can assign different values to each one and the count to over one
-thousand.</p>
+<p>If we want to add up to larger numbers we will run out of fingers when we want
+to go over ten. But we can set a different value to each one and then count to
+over one thousand.</p>
 
 <p>For example, in our left hand the thumb can be worth one, the index finger
 can be two, the middle one four, the ring one eight and the pinky sixteen.</p>
 
-<p>Now if we want to represent the number fourteen, we can lift the our three
+<p>Now if we want to represent the number fourteen, we can show our three
 middle fingers.</p>
 
 <p><img src="04-02-encoding.finger-counting.png" alt="" title="" /></p>
 
 <p>Hands made by <a href="http://www.freepik.com">Freepik</a> from
-<a href="http://www.flaticon.com">www.flaticon.com</a>. Licensed under
-<a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+ <a href="http://www.flaticon.com">www.flaticon.com</a>. Licensed under
+ <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
 
 <h4>Properties</h4>
 
-<p>To successfully encode and decode a value, it is necessary to agree on a
-representation. And the sender needs to know how to create this representation
-for any value, while the receiver needs to know how to read it to get the
-value.</p>
+<p>"Encode" a value is the action of representing it in a specific way, while
+"decode" is to read that representation to get the actual value.</p>
+
+<p>To successfully encode and decode a value, it is necessary for the sender and
+recipient to agree on what representation to use.</p>
 </div>
 </body>
 </html>
