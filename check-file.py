@@ -20,8 +20,10 @@ with open(sys.argv[1], 'r') as fp:
     for line in fp.readlines():
         if line[0] == '!' or line[0] == '#' or line[0] == ' ':
             continue
-        text += re.sub('[#\.\,\;\:\?\"]', '', line.strip().lower()) + '\n'
-    text_words = re.split('[\s\'-\/]', text)
+        line = line.strip().lower()
+        line = re.sub(r'https?\:\/\/[a-zA-Z0-9\=\?\&\.\/\-\%]+', '', line)
+        text += re.sub(r'[#\.\,\;\:\?\"]', '', line) + '\n'
+    text_words = re.split('[\s\'-\/\[\]\(\)]', text)
 
 
 bad_words = set()
