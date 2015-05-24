@@ -4,19 +4,19 @@
 
 ##### Walkie Talkie
 
-Two kids got a pair of Walkie Talkie, a handheld two-way radio. They are
-playing outside, in a large area. They soon realize sometimes the messages
-do not go through, but they keep playing and enjoying when they work.
+Two kids got a pair of Walkie Talkies, a small two-way radio. They are
+playing outside, in a large area. They soon realize sometimes the sound is
+not good, but they keep playing and enjoying when they work.
 
 ##### Airplanes
 
-A similar technology is used to communicate between airplains and the control
-tower. However, in this case, the reliability is really important, so there are
-strict protocols in place. When a command is given from the control tower,
-the airplane must not only acknowledge but repeat the message to make sure it
-was properly received.
+Airport's control tower use a similar system to talk to airplanes. However,
+in this case, receiving the right information is really important, so there are
+agreements in place to get rid of these problems. When an order is given from
+the control tower, the airplane must not only say they have received it, but
+also say it back to make sure it was correctly received.
 
 #### Properties
 
-Both TCP and UDP allow to communicate data, but the former allows the sender to
-know that the data was sent completely and correctly.
+Both TCP and UDP allow two parties to talk to each other, but TCP allows the
+sender to know that the information was sent completely and correctly.
