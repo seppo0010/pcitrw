@@ -281,24 +281,23 @@ slower rate.</p>
 
 <h5>Civil Registry</h5>
 
-<p>A civil registry keeps records of citizen's vital events like births, marriages
-and deaths.</p>
+<p>A civil registry keeps records of people's personal information like births,
+marriages and deaths.</p>
 
-<p>To define the Civil Registry as a consistent database, we need to make sure
+<p>For a Civil Registry to be a consistent database, we need to make sure
 of the following:</p>
 
 <ul>
-<li><p>Data inserted is always valid. For example, nobody can die more than once,
-and only people who was born can get married.</p></li>
-<li><p>Any data that is written, will be stored and available when reading
-afterwards. No sheet can be lost or ignored.</p></li>
+<li><p>Information  written is always correct. For example, nobody can die more
+than once, and only people who was born can get married.</p></li>
+<li><p>Anything written will be saved and available when reading afterwards.
+No sheet can be lost or forgotten.</p></li>
 </ul>
 
-<p>We can say instead it is eventually consistent if we loosen the immediacy of
-the availability of written data. For example, if we have different offices
-where the events can be registered, a birth that is written in one may not be
-known in the other office until they eventually sync up. This must happen at
-some point, but its frequency can be arbitrarily set.</p>
+<p>We can say instead it is eventually consistent if the written report does not
+need to be available right away. For example, if we have different offices
+receiving information, a birth that is written in one may not be
+known in the other office until they share records at some future time. </p>
 
 <h3>Atomicity and Isolation</h3>
 
@@ -306,18 +305,18 @@ some point, but its frequency can be arbitrarily set.</p>
 
 <h5>Bank Transfer</h5>
 
-<p>If a bank cashier wants to transfer money between two accounts, there are
-actually two operations: subtract the amount from one of the accounts and
+<p>If a banker wants to move money between two accounts, there are
+actually two operations: take the amount from one of the accounts and
 add it to the other one.</p>
 
 <p>For these operations to be considered atomic, they need to happen both or
-neither. If money is added to one of the accounts, but the subtraction of the
-other one fails (for lack of funds, for example) the addition needs to be
-canceled.</p>
+none of them. If money is added to one of the accounts, but the reduction in the
+other one does not go through (not enough funds, for example) the first
+operation needs to be taken back.</p>
 
 <p>For them to be considered isolated, nobody else should be able to check out the
-balances of the accounts during the operations with one of them executed
-and the other one not. Results must be available altogether.</p>
+balances of the accounts after one operation but before the another one.
+Results must be available as one.</p>
 
 <h3>SQL Injection</h3>
 
