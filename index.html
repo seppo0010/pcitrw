@@ -75,7 +75,7 @@ possibilities.</p>
 <p>On the other hand, asking a very specific question, it is very likely to get
 little information in most cases, and a lot in a few.</p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
 <p>Binary Search is a list of steps that we can do to find a result in a
 collection. It is called "binary" because after each step, we should be able to
@@ -111,9 +111,9 @@ then sent to a central person who adds up the votes to find the winner.</p>
 
 <p><img src="01-02-map-reduce.elections.png" alt="" title="" /></p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
-<p>The benefit of map/reduce is to divide a big problem into smaller ones that can
+<p>Map/reduce allows us to divide a big problem into smaller ones that can
 be done at the same time, and then use the results of each to get the general
 result.</p>
 
@@ -136,10 +136,10 @@ Now they will include their letter in that coffer, and another open coffer
 inside of it, to which they own the key. The recipient can then answer
 privately using this second coffer.</p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
-<p>With this system, anyone can send letters privately to anyone that has a coffer
-in the post office, or if they can somehow receive a coffer once.</p>
+<p>Using asymmetric encryption anyone can send letters privately to anyone that
+has a coffer in the post office, or if they can somehow receive a coffer once.</p>
 
 <h3>Compression</h3>
 
@@ -171,9 +171,9 @@ This time, they do not have all the information, but they have enough.</p>
 
 <p><img src="01-04-compression.map.png" alt="" title="" /></p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
-<p>When compressing something, we change its representation to be smaller. With
+<p>By compressing we change its representation to be smaller. With
 a lossless compression we can get the exact same thing we had in the first
 place, but with a lossy compression we will not get as much, but it might be
 enough our needs.</p>
@@ -192,10 +192,10 @@ making a list.</p>
 
 <p><img src="02-01-array.grocery.png" alt="" title="" /></p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
-<p>Adding items to an array at the end is easy. And adding more space
-(including a second sheet of paper) is also possible.</p>
+<p>An array is a list of items. Adding more at the end is easy. And adding more
+space (including a second sheet of paper) is also possible.</p>
 
 <p>It is not easy to add things in the middle of the list. It requires you to
 copy every item one line under each of them to have the free space where you
@@ -216,12 +216,12 @@ are sure that your list is complete.</p>
 
 <p><img src="02-02-linked-list.field-trip.png" alt="" title="" /></p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
-<p>In this case, it is easy to add something at any point in the list. If the
-list is sorted, you can find where the item needs to be added and just ask the
-previous item point to the new value and the new value to what the item was
-pointing at.</p>
+<p>A linked list is a way to represent a list of items. In this case, it is easy
+to add something at any point in the list. If the list is sorted, you can find
+where the item needs to be added and just ask the previous item point to the
+new value and the new value to what the item was pointing at.</p>
 
 <p>It is hard, though, to identify a item by its position. If you want to know
 the position of a item, you have to start from the first and count until you
@@ -253,9 +253,10 @@ continue until the same child was pointed to by both lists.</p>
 
 <p><img src="02-03-double-linked-list.field-trip.png" alt="" title="" /></p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
-<p>Like in the linked list case, we can easily add items anywhere in the list,
+<p>A double linked list is yet another way of representing a list of things.
+Like in the linked list case, we can easily add items anywhere in the list,
 but now we can walk the items from either of the sides, but we are asking
 each item to remember more.</p>
 
@@ -283,9 +284,10 @@ less incorrect items in the drawer.</p>
  <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
  Colored by Sebastian Waisbrot.</p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
-<p>If we have enough groups, we can add and look up any item really fast.</p>
+<p>A Hash Map groups things by characteristics. If we have enough groups,
+we can add and look up any item really fast.</p>
 
 <h3>Btree</h3>
 
@@ -303,7 +305,7 @@ letter.</p>
 
 <p><img src="02-05-btree.dictionary.png" alt="" title="" /></p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
 <p>Each of these pages we are adding is called an "index". A Btree allows you to 
 follow index after index until getting the item you are looking for.
@@ -408,7 +410,7 @@ and no one is the single responsible for it.</p>
 <p>Problems may appear when the phone lines are not working properly. If a single
 office phone is broken, all offices will stop working.</p>
 
-<h5>Properties</h5>
+<h5>Definition</h5>
 
 <p>It is said that a distributed database can only be highly available or highly
 consistent. Different balances between both can be achieved for different use
@@ -434,7 +436,7 @@ agreements in place to get rid of these problems. When an order is given from
 the control tower, the airplane must not only say they have received it, but
 also say it back to make sure it was correctly received.</p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
 <p>Both TCP and UDP allow two parties to talk to each other, but TCP allows the
 sender to know that the information was sent completely and correctly.</p>
@@ -464,13 +466,34 @@ middle fingers.</p>
  <a href="http://www.flaticon.com">www.flaticon.com</a>. Licensed under
  <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
 
-<h4>Properties</h4>
+<h4>Definition</h4>
 
 <p>"Encode" a value is the action of representing it in a specific way, while
 "decode" is to read that representation to get the actual value.</p>
 
 <p>To successfully encode and decode a value, it is necessary for the sender and
 recipient to agree on what representation to use.</p>
+
+<h3>Overflow</h3>
+
+<h4>Example</h4>
+
+<h5>Back to the Future time machine panel</h5>
+
+<p>In the film Back to the Future the Doc creates a time machine that can travel
+to any time in the past or in the future. But if we see the control board we
+might notice a possible problem.</p>
+
+<p><img src="04-03-overflow.bttf-panel.jpg" alt="" title="" /></p>
+
+<p>The year is represented by an LCD display with four numbers. If we try to go to
+any year after 9,999 or before -999 it will not be represented! If we try to
+write it, the numbers will actually be written in the hour box instead.</p>
+
+<h4>Definition</h4>
+
+<p>An "overflow" happens when we want to represent a number that is too big or too
+small for the space it has available.</p>
 </div>
 </body>
 </html>
