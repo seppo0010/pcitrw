@@ -1,0 +1,5 @@
+map
+compression
+lossy
+lossless
+compressing
