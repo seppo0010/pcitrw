@@ -44,10 +44,28 @@ use to solve problems.</p>
 
 <p>To suggest a topic, an improvement, or any sort of feedback, please
 <a href="https://github.com/seppo0010/pcitrw/issues/new">create an issue in the GitHub repository</a>.</p>
-
-<h2>Algorithms</h2>
-
-<h3>Binary Search</h3>
+<h2>Index</h2><ul><li><a href="#01-00-algorithms"> Algorithms
+</a><ul><li><a href="#01-01-binary-search"> Binary Search
+</a></li><li><a href="#01-02-map-reduce"> Map/Reduce
+</a></li><li><a href="#01-03-asymmetric-encryption"> Asymmetric Encryption
+</a></li><li><a href="#01-04-compression"> Compression
+</a></li></ul></li><li><a href="#02-00-data-structures"> Data Structures
+</a><ul><li><a href="#02-01-array"> Array
+</a></li><li><a href="#02-02-linked-list"> Linked List
+</a></li><li><a href="#02-03-double-linked-list"> Double Linked List
+</a></li><li><a href="#02-04-hashmap"> Hash Map
+</a></li><li><a href="#02-05-btree"> Btree
+</a></li></ul></li><li><a href="#03-00-databases"> Databases
+</a><ul><li><a href="#03-01-consistency"> Consistency
+</a></li><li><a href="#03-02-atomicity-isolation"> Atomicity and Isolation
+</a></li><li><a href="#03-03-sql-injection"> SQL Injection
+</a></li><li><a href="#03-04-cap-theorem"> CAP Theorem
+</a></li></ul></li><li><a href="#04-00-miscellaneous"> Miscellaneous
+</a><ul><li><a href="#04-01-tcp-udp"> TCP vs UDP
+</a></li><li><a href="#04-02-encoding"> Encoding
+</a></li><li><a href="#04-03-overflow"> Overflow
+</a></li></ul></li></ul><a name="01-00-algorithms"></a><h2>Algorithms</h2>
+<a name="01-01-binary-search"></a><h3>Binary Search</h3>
 
 <h4>Example</h4>
 
@@ -89,8 +107,7 @@ can reduce half of the possible results at a time.</p>
 pretty fast to find what we are looking for in not so many steps. For a million
 items, we can localize any one in up to twenty comparisons. And for a
 thousand millions, up to 30.</p>
-
-<h3>Map/Reduce</h3>
+<a name="01-02-map-reduce"></a><h3>Map/Reduce</h3>
 
 <h4>Example</h4>
 
@@ -116,8 +133,7 @@ then sent to a central person who adds up the votes to find the winner.</p>
 <p>Map/reduce allows us to divide a big problem into smaller ones that can
 be done at the same time, and then use the results of each to get the general
 result.</p>
-
-<h3>Asymmetric Encryption</h3>
+<a name="01-03-asymmetric-encryption"></a><h3>Asymmetric Encryption</h3>
 
 <h4>Example</h4>
 
@@ -140,8 +156,7 @@ privately using this second coffer.</p>
 
 <p>Using asymmetric encryption anyone can send letters privately to anyone that
 has a coffer in the post office, or if they can somehow receive a coffer once.</p>
-
-<h3>Compression</h3>
+<a name="01-04-compression"></a><h3>Compression</h3>
 
 <h4>Example</h4>
 
@@ -177,10 +192,8 @@ This time, they do not have all the information, but they have enough.</p>
 a lossless compression we can get the exact same thing we had in the first
 place, but with a lossy compression we will not get as much, but it might be
 enough our needs.</p>
-
-<h2>Data Structures</h2>
-
-<h3>Array</h3>
+<a name="02-00-data-structures"></a><h2>Data Structures</h2>
+<a name="02-01-array"></a><h3>Array</h3>
 
 <h4>Example</h4>
 
@@ -200,8 +213,7 @@ space (including a second sheet of paper) is also possible.</p>
 <p>It is not easy to add things in the middle of the list. It requires you to
 copy every item one line under each of them to have the free space where you
 want the new item.</p>
-
-<h3>Linked List</h3>
+<a name="02-02-linked-list"></a><h3>Linked List</h3>
 
 <h4>Example</h4>
 
@@ -226,8 +238,7 @@ new value and the new value to what the item was pointing at.</p>
 <p>It is hard, though, to identify a item by its position. If you want to know
 the position of a item, you have to start from the first and count until you
 get to it.</p>
-
-<h3>Double Linked List</h3>
+<a name="02-03-double-linked-list"></a><h3>Double Linked List</h3>
 
 <h4>Example</h4>
 
@@ -259,8 +270,7 @@ continue until the same child was pointed to by both lists.</p>
 Like in the linked list case, we can easily add items anywhere in the list,
 but now we can walk the items from either of the sides, but we are asking
 each item to remember more.</p>
-
-<h3>Hash Map</h3>
+<a name="02-04-hashmap"></a><h3>Hash Map</h3>
 
 <h4>Example</h4>
 
@@ -288,8 +298,7 @@ less incorrect items in the drawer.</p>
 
 <p>A Hash Map groups things by characteristics. If we have enough groups,
 we can add and look up any item really fast.</p>
-
-<h3>Btree</h3>
+<a name="02-05-btree"></a><h3>Btree</h3>
 
 <h4>Example</h4>
 
@@ -311,10 +320,8 @@ letter.</p>
 follow index after index until getting the item you are looking for.
 The number of indexes to follow grows with the number of items, but at a much
 slower rate.</p>
-
-<h2>Databases</h2>
-
-<h3>Consistency</h3>
+<a name="03-00-databases"></a><h2>Databases</h2>
+<a name="03-01-consistency"></a><h3>Consistency</h3>
 
 <h4>Example</h4>
 
@@ -337,8 +344,7 @@ No sheet can be lost or forgotten.</p></li>
 need to be available right away. For example, if we have different offices
 receiving information, a birth that is written in one may not be
 known in the other office until they share records at some future time. </p>
-
-<h3>Atomicity and Isolation</h3>
+<a name="03-02-atomicity-isolation"></a><h3>Atomicity and Isolation</h3>
 
 <h4>Example</h4>
 
@@ -356,8 +362,7 @@ operation needs to be taken back.</p>
 <p>For them to be considered isolated, nobody else should be able to check out the
 balances of the accounts after one operation but before the another one.
 Results must be available as one.</p>
-
-<h3>SQL Injection</h3>
+<a name="03-03-sql-injection"></a><h3>SQL Injection</h3>
 
 <h4>Example</h4>
 
@@ -376,8 +381,7 @@ or "What is the name of the person in first base?".</p>
 
 <p>A SQL Injection works by introducing a term in a statement that changes
 its meaning for the reader from what the writer actually meant.</p>
-
-<h3>CAP Theorem</h3>
+<a name="03-04-cap-theorem"></a><h3>CAP Theorem</h3>
 
 <h4>Example</h4>
 
@@ -415,10 +419,8 @@ office phone is broken, all offices will stop working.</p>
 <p>It is said that a distributed database can only be highly available or highly
 consistent. Different balances between both can be achieved for different use
 cases.</p>
-
-<h2>Miscellaneous</h2>
-
-<h3>TCP vs UDP</h3>
+<a name="04-00-miscellaneous"></a><h2>Miscellaneous</h2>
+<a name="04-01-tcp-udp"></a><h3>TCP vs UDP</h3>
 
 <h4>Example</h4>
 
@@ -440,8 +442,7 @@ also say it back to make sure it was correctly received.</p>
 
 <p>Both TCP and UDP allow two parties to talk to each other, but TCP allows the
 sender to know that the information was sent completely and correctly.</p>
-
-<h3>Encoding</h3>
+<a name="04-02-encoding"></a><h3>Encoding</h3>
 
 <h4>Example</h4>
 
@@ -473,8 +474,7 @@ middle fingers.</p>
 
 <p>To successfully encode and decode a value, it is necessary for the sender and
 recipient to agree on what representation to use.</p>
-
-<h3>Overflow</h3>
+<a name="04-03-overflow"></a><h3>Overflow</h3>
 
 <h4>Example</h4>
 
