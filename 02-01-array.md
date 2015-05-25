@@ -10,10 +10,10 @@ making a list.
 
 ![](02-01-array.grocery.png)
 
-#### Properties
+#### Definition
 
-Adding items to an array at the end is easy. And adding more space
-(including a second sheet of paper) is also possible.
+An array is a list of items. Adding more at the end is easy. And adding more
+space (including a second sheet of paper) is also possible.
 
 It is not easy to add things in the middle of the list. It requires you to
 copy every item one line under each of them to have the free space where you

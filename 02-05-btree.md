@@ -14,7 +14,7 @@ letter.
 
 ![](02-05-btree.dictionary.png)
 
-#### Properties
+#### Definition
 
 Each of these pages we are adding is called an "index". A Btree allows you to 
 follow index after index until getting the item you are looking for.

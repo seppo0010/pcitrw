@@ -26,7 +26,7 @@ possibilities.
 On the other hand, asking a very specific question, it is very likely to get
 little information in most cases, and a lot in a few.
 
-#### Properties
+#### Definition
 
 Binary Search is a list of steps that we can do to find a result in a
 collection. It is called "binary" because after each step, we should be able to

@@ -5,3 +5,5 @@ drawer
 pile
 shirts
 pants
+map
+hash

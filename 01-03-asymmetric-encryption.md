@@ -17,7 +17,7 @@ Now they will include their letter in that coffer, and another open coffer
 inside of it, to which they own the key. The recipient can then answer
 privately using this second coffer.
 
-#### Properties
+#### Definition
 
-With this system, anyone can send letters privately to anyone that has a coffer
-in the post office, or if they can somehow receive a coffer once.
+Using asymmetric encryption anyone can send letters privately to anyone that
+has a coffer in the post office, or if they can somehow receive a coffer once.

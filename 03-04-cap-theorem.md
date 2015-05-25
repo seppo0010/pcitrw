@@ -31,7 +31,7 @@ and no one is the single responsible for it.
 Problems may appear when the phone lines are not working properly. If a single
 office phone is broken, all offices will stop working.
 
-##### Properties
+##### Definition
 
 It is said that a distributed database can only be highly available or highly
 consistent. Different balances between both can be achieved for different use

@@ -24,8 +24,9 @@ continue until the same child was pointed to by both lists.
 
 ![](02-03-double-linked-list.field-trip.png)
 
-#### Properties
+#### Definition
 
+A double linked list is yet another way of representing a list of things.
 Like in the linked list case, we can easily add items anywhere in the list,
 but now we can walk the items from either of the sides, but we are asking
 each item to remember more.

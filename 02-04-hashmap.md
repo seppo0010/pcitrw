@@ -22,6 +22,7 @@ less incorrect items in the drawer.
  [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/).
  Colored by Sebastian Waisbrot.
 
-#### Properties
+#### Definition
 
-If we have enough groups, we can add and look up any item really fast.
+A Hash Map groups things by characteristics. If we have enough groups,
+we can add and look up any item really fast.

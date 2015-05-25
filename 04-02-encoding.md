@@ -23,7 +23,7 @@ middle fingers.
  [www.flaticon.com](http://www.flaticon.com). Licensed under
  [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/).
 
-#### Properties
+#### Definition
 
 "Encode" a value is the action of representing it in a specific way, while
 "decode" is to read that representation to get the actual value.

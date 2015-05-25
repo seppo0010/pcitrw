@@ -16,7 +16,7 @@ agreements in place to get rid of these problems. When an order is given from
 the control tower, the airplane must not only say they have received it, but
 also say it back to make sure it was correctly received.
 
-#### Properties
+#### Definition
 
 Both TCP and UDP allow two parties to talk to each other, but TCP allows the
 sender to know that the information was sent completely and correctly.

@@ -19,8 +19,8 @@ The act of counting each individual vote and write down the results is called
 
 ![](01-02-map-reduce.elections.png)
 
-#### Properties
+#### Definition
 
-The benefit of map/reduce is to divide a big problem into smaller ones that can
+Map/reduce allows us to divide a big problem into smaller ones that can
 be done at the same time, and then use the results of each to get the general
 result.

@@ -28,9 +28,9 @@ This time, they do not have all the information, but they have enough.
 
 ![](01-04-compression.map.png)
 
-#### Properties
+#### Definition
 
-When compressing something, we change its representation to be smaller. With
+By compressing we change its representation to be smaller. With
 a lossless compression we can get the exact same thing we had in the first
 place, but with a lossy compression we will not get as much, but it might be
 enough our needs.
