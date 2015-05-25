@@ -22,7 +22,7 @@ with open(sys.argv[1], 'r') as fp:
             continue
         line = line.strip().lower()
         line = re.sub(r'https?\:\/\/[a-zA-Z0-9\=\?\&\.\/\-\%]+', '', line)
-        text += re.sub(r'[#\.\,\;\:\?\"]', '', line) + '\n'
+        text += re.sub(r'[#\.\,\;\:\?\"\!]', '', line) + '\n'
     text_words = re.split('[\s\'-\/\[\]\(\)]', text)
 
 
