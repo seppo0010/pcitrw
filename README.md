@@ -2,13 +2,17 @@
 
 [![Attribution-ShareAlike 4.0 International](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-There are many aspects to programming that are needed to write code. In this
-book we will focus only on some basic concepts that can be explained in
-isolation, and may be interesting for non programmers.
+Programming is a lot more interesting than writing code that computers can run,
+however this aspect is the first one people will encounter, and it many case
+it may discourage them from looking further.
 
-The goal is not to teach how to program, but to show what programming is about.
-What are some of the topics software engineer discuss, and which tools they
-use to solve problems.
+We will try to explore some of the common problem and solutions in different
+system that people may run into and how those are actually similar to those
+software deals with.
+
+Many software developers are so used to these concepts that they will
+instinctively see them in the wild, and they may find useful to have a glossary
+with examples to share with other people.
 
 ## Contributing
 
