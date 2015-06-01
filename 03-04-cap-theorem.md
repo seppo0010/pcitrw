@@ -7,7 +7,7 @@
 Suppose a Civil Registry with five offices and phone lines between them.
 There are different ways of organizing. We are going to look into two of them.
 
-####### Highly available (AP)
+###### Highly available (AP)
 
 Each of the offices can take new information from people and at the end of the day,
 they will share it with all the other offices.
