@@ -61,6 +61,7 @@ with examples to share with other people.</p>
 </a></li><li><a href="#02-03-double-linked-list"> Double Linked List
 </a></li><li><a href="#02-04-hashmap"> Hash Map
 </a></li><li><a href="#02-05-btree"> Btree
+</a></li><li><a href="#02-06-queue"> Queue
 </a></li></ul></li><li><a href="#03-00-databases"> Databases
 </a><ul><li><a href="#03-01-consistency"> Consistency
 </a></li><li><a href="#03-02-atomicity-isolation"> Atomicity and Isolation
@@ -345,6 +346,26 @@ letter.</p>
 follow index after index until getting the item you are looking for.
 The number of indexes to follow grows with the number of items, but at a much
 slower rate.</p>
+<a name="02-06-queue"></a><h3>Queue</h3>
+
+<h4>Example</h4>
+
+<h5>Cashier lines</h5>
+
+<p>A small market has a cashier. When people want to buy things, they form a line
+and pay one at a time. This line is a queue.</p>
+
+<p>A supermarket may have many cashiers, and each can have its own line. Each
+of these acts on its own.</p>
+
+<p>If instead we form a single line that is shared by all cashiers, we will have a
+single line, and each of the cashiers would take the next one, in the same
+order they were ready.</p>
+
+<h4>Definition</h4>
+
+<p>A queue is a list where things are taken out in the same order they were
+added.</p>
 <a name="03-00-databases"></a><h2>Databases</h2>
 <a name="03-01-consistency"></a><h3>Consistency</h3>
 
