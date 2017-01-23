@@ -71,6 +71,7 @@ with examples to share with other people.</p>
 </a><ul><li><a href="#04-01-tcp-udp"> TCP vs UDP
 </a></li><li><a href="#04-02-encoding"> Encoding
 </a></li><li><a href="#04-03-overflow"> Overflow
+</a></li><li><a href="#04-04-memory-leaks"> Memory Leak
 </a></li></ul></li></ul><a name="01-00-algorithms"></a><h2>Algorithms</h2>
 <a name="01-01-binary-search"></a><h3>Binary Search</h3>
 
@@ -540,6 +541,24 @@ write it, the numbers will actually be written in the hour box instead.</p>
 
 <p>An "overflow" happens when we want to represent a number that is too big or too
 small for the space it has available.</p>
+<a name="04-04-memory-leaks"></a><h3>Memory Leak</h3>
+
+<h4>Example</h4>
+
+<h5>Automated teller machine</h5>
+
+<p>It is not uncommon to go to an ATM to get money and forget the used card.</p>
+
+<p>You first put your card in, then choose what you want to do, and last
+you have to wait for your card to be returned to you.</p>
+
+<p>It is normal to move on once you finished what you wanted to do and only
+realize you forgot your card once you want to use it again.</p>
+
+<h4>Definition</h4>
+
+<p>A memory leak (or any resource leak) is to forget to return something to its
+available state once it is no longer in use.</p>
 </div>
 </body>
 </html>
